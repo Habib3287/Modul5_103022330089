@@ -69,8 +69,8 @@ class program {
 
         SimpleDataBase<long> dataBase = new SimpleDataBase<long>();
         dataBase.AddNewData(10);
-        dataBase.AddNewData(34);
-        dataBase.AddNewData(56);
+        dataBase.AddNewData(30);
+        dataBase.AddNewData(89);
         dataBase.PrintAllData();
     }
 }
