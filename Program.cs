@@ -33,7 +33,7 @@ class program {
     public static void Main(string[] args)
     {
         PemrosesanData data = new PemrosesanData();
-        long terbesar = data.DapatkanNilaiTerbesar(10, 20, 30);
+        long terbesar = data.DapatkanNilaiTerbesar<long>(10, 20, 30);
         Console.WriteLine("Nilai terbesar adalah : " + terbesar);
     }
 }
